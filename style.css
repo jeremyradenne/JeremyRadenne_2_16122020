@@ -1,0 +1,60 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: url(font/Raleway-Regular.ttf), url(font/Raleway-Bold.ttf);
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: "Raleway";
+  line-height: 1.625;
+  margin: 0;
+  color: black;
+  background: linear-gradient(
+      to top,
+      rgba(255, 255, 255, 0.6),
+      rgba(255, 255, 255, 0.6)
+    ),
+    url(Desktop\ -\ 1.png) top center no-repeat;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1375px;
+  margin: 0 auto;
+  padding: 25px 20px;
+}
+
+.logo {
+  max-width: 97px;
+  padding-top: 20px;
+}
+
+.menu-item {
+  margin: 0 3px 0 12px;
+  padding: 46px 22px 0 28px;
+}
+
+nav .active {
+  border-top: 2px solid #0065fc;
+}
