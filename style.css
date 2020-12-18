@@ -34,6 +34,7 @@ a {
 img {
   max-width: 100%;
   height: auto;
+  z-index: 999;
 }
 
 .header {
@@ -67,6 +68,7 @@ nav .active {
 }
 
 .title h1 {
+  font-weight: 600;
   letter-spacing: -0.7px;
   margin: 0;
   padding: 0;
@@ -75,4 +77,89 @@ nav .active {
 .title p {
   margin: 0;
   padding: 0;
+}
+
+.search-form {
+  display: flex;
+  align-items: center;
+  margin-top: 13px;
+}
+
+.search-icon {
+  background-color: #f2f2f2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 15px 0 0 15px;
+}
+
+.search-form input {
+  padding: 0 18px;
+  width: 235px;
+  font-size: 18px;
+  letter-spacing: 0.4px;
+  border: solid 1px #f2f2f2;
+  background: transparent;
+  height: 50px;
+}
+
+.search-form button {
+  font-weight: 600;
+  font-size: 18px;
+  color: #fff;
+  background: #0065fc;
+  border: solid 1px transparent;
+  border-radius: 0 15px 15px 0;
+  padding: 15px 16px;
+  cursor: pointer;
+}
+
+.search-filter {
+  margin: 20px 7px 0;
+  display: flex;
+  align-content: center;
+}
+
+.tuile {
+  display: flex;
+  align-items: baseline;
+  margin-left: 29px;
+  padding: 0;
+}
+
+.tuile .search-icon {
+  position: relative;
+  top: 4px;
+  background-color: #deebff;
+  border-radius: 30px;
+  margin: 7px -25px 0 0;
+  z-index: 2;
+}
+
+.tuile p {
+  border-top: solid 2px #f2f2f2;
+  border-bottom: solid 2px #f2f2f2;
+  border-right: solid 2px #f2f2f2;
+  border-radius: 0 30px 30px 0;
+  padding: 10px 20px 10px 35px;
+  margin: 0;
+  letter-spacing: 1px;
+  font-size: 17px;
+}
+
+.search-info {
+  display: flex;
+  align-items: baseline;
+  margin: 10px 3px;
+}
+
+.search-info img {
+  position: relative;
+  top: 7px;
+  border: solid 2px #f2f2f2;
+  padding: 5px;
+  margin-right: 10px;
+  border-radius: 20px;
 }
