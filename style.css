@@ -53,8 +53,26 @@ img {
 .menu-item {
   margin: 0 3px 0 12px;
   padding: 46px 22px 0 28px;
+  color: #0065fc;
 }
 
 nav .active {
   border-top: 2px solid #0065fc;
+}
+
+.container {
+  margin: 5px auto;
+  padding: 0 20px;
+  max-width: 1370px;
+}
+
+.title h1 {
+  letter-spacing: -0.7px;
+  margin: 0;
+  padding: 0;
+}
+
+.title p {
+  margin: 0;
+  padding: 0;
 }
