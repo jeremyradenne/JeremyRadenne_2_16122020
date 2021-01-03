@@ -25,12 +25,12 @@ body {
   line-height: 1.2;
   margin: 0;
   color: black;
-  /* background: linear-gradient(
+  background: linear-gradient(
       to top,
       rgba(255, 255, 255, 0.7),
       rgba(255, 255, 255, 0.7)
     ),
-    url(Desktop\ -\ 1.png) top center no-repeat; */
+    url(Desktop\ -\ 1.png) top center no-repeat;
 }
 
 h1,
@@ -364,22 +364,29 @@ nav :last-child {
   height: 150px;
 }
 
-.container-footer {
-  margin: 20px auto 0;
-  padding: 27px 10px 0;
-  max-width: 1440px;
+footer {
   background-color: #f2f2f2;
 }
 
+.container-footer {
+  margin: 20px auto 0;
+  padding: 47px 30px 20px;
+  max-width: 1400px;
+}
+
 .container-footer .flex {
-  max-width: 1062px;
+  max-width: 1022px;
+  margin: 0;
 }
 
 .container-footer p {
-  margin-bottom: 20px;
   font-size: 18px;
   font-weight: 600;
   letter-spacing: 0.2px;
+}
+
+.container-footer ul {
+  padding-left: 0;
 }
 
 .container-footer ul li {
@@ -585,6 +592,14 @@ nav :last-child {
   .container-featured {
     padding: 35px 25px 10px;
     border-radius: 0;
+  }
+
+  .container-footer {
+    margin: 5px 35px 35px;
+  }
+
+  .container-footer p {
+    margin-top: 35px;
   }
 
   .container-footer .flex {
